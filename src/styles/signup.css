@@ -1,0 +1,69 @@
+.signup{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #90e0ef;
+}
+
+.acc{
+    text-align: center;
+}
+
+.signin_box{
+    margin-top: 2rem;
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.signin_box h4{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.signin_form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.signin_form form input{
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+    border: .5px solid grey;
+    margin: .8rem 0;
+}
+
+.sign_btns{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log_btn{
+    border: none;
+    background-color: #90e0ef;
+    color: blue;
+    cursor: pointer;
+}
+
+.alrdy{
+    margin-bottom: .5rem;
+}
+
+.login_go{
+    display: flex;
+    align-items: center;
+}
+
+.sign_btns button{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

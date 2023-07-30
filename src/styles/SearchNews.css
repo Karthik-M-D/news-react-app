@@ -1,0 +1,134 @@
+.search_news_keyword {
+    min-height: 92vh;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #caf0f8;
+}
+
+.search_input {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.inp1 {
+    width: 50%;
+    margin-top: .5rem;
+    border-radius: 10px;
+    background: none;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.inp_search {
+    margin-bottom: 1.5rem;
+}
+
+.inp_date h3 {
+    margin-bottom: 1rem;
+}
+
+.inp2 {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.srch_clk{
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search_news_container {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.search_news_container h2 {
+    margin-bottom: 1rem;
+}
+
+.news_boxes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.search_news_res img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.search_news_res{
+    border: 1px solid black;
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.search_news_res_content{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.search_news_res_content p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.search_news_res_content .lnk{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.page_btns{
+    margin-top: 2rem;
+    width: 50%;
+    border: 1xp solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.page_btns button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* categories */
+.categories_conatiner{
+    padding: 7rem 2rem 2rem 2rem;
+    background-color: #caf0f8;
+    min-height: 90vh;
+}
+.category_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.categories_links{
+    margin: 1rem 0;
+}
+
+.categories_links button{
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: .5rem;
+}

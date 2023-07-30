@@ -1,0 +1,49 @@
+.main_page_container {
+    height: 90vh;
+    background-image: url(https://cdn.theatlantic.com/assets/media/img/posts/%5Bgickr.com%5D_ec27c7a6-28c5-0b44-55d8-0a917c1cee38.gif);
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    opacity: 0.25;
+}
+
+.main_ctnt {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home_content h4{
+    font-size: 2rem;
+    color: #023e8a;
+    margin-bottom: 2rem;
+}
+
+.abt{
+    text-align: start;
+    color: #0077b6;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.sign{
+    color: #5e60ce;
+    font-size: 1.3rem;
+    text-align: start;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.sign button{
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    border-radius: 30px;
+    cursor: pointer;
+}

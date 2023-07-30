@@ -1,0 +1,28 @@
+.footer_container {
+    height: 5rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ftr_icons {
+    padding-bottom: 1rem;
+}
+
+.ftr_icons a {
+    padding: 1rem;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.ftr_icons a:hover {
+    color: #0077b6;
+}
+
+.ftr-content h4 {
+    font-size: 1rem;
+}
