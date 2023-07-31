@@ -8,7 +8,6 @@ import Footer from './Footer';
 import '../styles/SearchNews.css'
 import Loader from './Loader';
 
-import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition'
 
 const key = process.env.REACT_APP_API_KEY;
 

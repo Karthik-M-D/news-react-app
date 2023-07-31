@@ -4,7 +4,7 @@ import '../styles/header.css'
 import logo from '../assets/logo2.png'
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
-import { getAuth, auth, onAuthStateChanged, signOut } from 'firebase/auth';
+import { getAuth, signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom'
 
 

@@ -7,9 +7,9 @@ import { NewsProvider } from './components/NewsContext.js';
 import Categories from './components/Categories';
 import Weather from './components/Weather';
 import Main from './components/Main';
-import Header from './components/Header';
 import SignUp from './components/auth/SignUp';
 import SignIn from './components/auth/SignIn';
+
 
 function App() {
   return (
